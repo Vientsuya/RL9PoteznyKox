@@ -1,36 +1,103 @@
-h1 {
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-}
-
-h1 {
-	color: white;
 }
 
 .s1 {
-	background: url('../images/rl1.jpg');
+	background: url('../images/rl1-darkened.png');
 	background-size: cover;
 }
 
+.main-screen-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.bayern-box {
+		margin: 100px 200px;
+		text-align: center;
+	}
+
+	.polska-box {
+		margin: 100px 200px;
+		text-align: center;
+	}
+
+	img {
+		width: 230px;
+		padding-bottom: 25px;
+		opacity: 0.9;
+	}
+
+	.data {
+		font-size: 68px;
+		color: #ffd8d8;
+		opacity: 0.8;
+	}
+}
+
 .s2 {
-	background: url('../images/rl2.jpg');
+	background: url('../images/rl2-darkened.png');
 	background-size: cover;
 
-	h1 {
-		text-align: left;
-		margin-left: 2em;
-		font-size: 4rem;
+	.bayern-screen-container {
+		height: 100vh;
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	p.number {
+		font-size: 140px;
+		color: white;
+		text-align: center;
+		opacity: 0.8;
+	}
+
+	p.text {
+		font-size: 82px;
+		color: white;
+		text-align: center;
+		opacity: 0.8;
+	}
+
+	.games-box,
+	.goals-box {
+		margin: 180px;
 	}
 }
 
 .s3 {
-	background: url('../images/rl3.jpg');
+	background: url('../images/rl3-darkened.png');
 	background-size: cover;
 
-	h1 {
-		text-align: left;
-		margin-left: 2em;
-		font-size: 2em;
+	.poland-screen-container {
+		height: 100vh;
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	p.number {
+		font-size: 140px;
+		color: white;
+		-webkit-text-stroke: 2px red;
+		opacity: 0.9;
+	}
+
+	p.text {
+		font-size: 82px;
+		color: white;
+		-webkit-text-stroke: 2px red;
+		opacity: 0.9;
+	}
+
+	.games-box,
+	.goals-box {
+		text-align: center;
+		margin: 160px;
 	}
 }
 
